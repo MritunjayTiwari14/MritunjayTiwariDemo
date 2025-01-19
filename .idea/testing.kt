@@ -3,6 +3,11 @@ fun main() {
 
 }
 
+//Creating the Function to Print Hello, Kotlin!
+open fun sayHello() {
+    println("Hello, Kotlin!")
+}
+
 abstract class Workshop {
     val time : Int
     val subject : String
